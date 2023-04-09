@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2f3cadaac9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+  <title>Playlist</title>
+</head>
+<body>
+
+    <nav  class="sidebar">
+        <div class="spotify-name">
+          <a href="#">
+              
+            <i class="fa-brands fa-spotify fa-2xl" style="color: #00ff33;"></i>
+            
+            
+          </a>
+          <span >Spotify</span>
+         
+        </div>
+  
+        
+        <section >
+          <ul class="navigation">
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
+                <span style="font-size: 1rem;">Home</span>
+              </a>
+            </li>
+            <br />
+            
+            <li>
+              <a href="search" >
+                <i
+                  class="fa-solid fa-magnifying-glass fa-xl"
+                  style="color: #ffffff;"
+                ></i>
+                <span style="font-size: 1rem;">Search</span>
+              </a>
+            </li>
+            <br />
+            
+  
+            <li>
+              <a href="Your Library">
+                <i class="fa-solid fa-list fa-xl" style="color: #ffffff;"></i>
+                <span style="font-size: 1rem;"> Your Library</span>
+              </a>
+            </li>
+            <br />
+            <br />
+            
+  
+            <li>
+              <a href="Create Playlist">
+                
+                <i class="fa-solid fa-square-plus fa-xl" style="color: #ffffff;"></i>
+                <span style="font-size: 1rem;">Create Playlist</span>
+              </a>
+            </li>
+            <br />
+            
+  
+            <li >
+              <a href="Liked Songs">
+                <i
+                  class="fa-sharp fa-solid fa-heart fa-xl"
+                  style="color: #ffffff;"
+                ></i>
+                <span style="font-size: 1rem;" > Liked Songs</span>
+              <section class="last-one"></section>
+              </a>
+            </li>
+  
+            <li class="zx">
+
+              <span style="padding-right: 5px;">Similar Artist</span>
+              <div class="dropdown" style="padding-left: 32px;">
+                <button class="dropbtn">Filter-by</button>
+                <div class="dropdown-content">
+                  <a href="#"></a>
+                  <a href="#">A-Z top</a>
+                  <a href="#">Z-A top</a>
+                  <a href="#">Recent</a>
+                </div>
+              </div>
+              <!-- 1 -->
+              <div class="sim-list" style="display: flex; flex-direction: row; padding: 5px; padding-left: 5px;">
+                <span class="i"><img  src="https://i.scdn.co/image/ab6761610000e5ebec05963eab63676a539fef13"></span>
+                <div class="z">
+                  <span class="vb" style="font-size:1.1rem; font-weight:500;">Havana</span>
+                  <span class="vb" style="font-size: 0.8rem;"> Camila C..</span>
+                </div>
+                <div>
+                <span style="padding-left:20px;">.</span>
+                <span>.</span>
+                <span>.</span>
+                
+                <span style="padding: 5px 0px 0px 15px;"> 4:33</span>
+              </div>
+              </div>
+<!-- 2 -->
+              <div class="sim-list" style="display: flex; flex-direction: row; padding: 5px; padding-left: 5px;">
+                <span class="i"><img  src="https://i.scdn.co/image/ab6761610000e5eb75348e1aade2645ad9c58829"></span>
+                <div class="z">
+                  <span class="vb" style="font-size:1.1rem; font-weight:500;">Havana</span>
+                  <span class="vb" style="font-size: 0.8rem;"> Camila C..</span>
+                </div>
+                <div>
+                <span style="padding-left:20px;">.</span>
+                <span>.</span>
+                <span>.</span>
+                
+                <span style="padding: 5px 0px 0px 15px;"> 4:33</span>
+              </div>
+              </div>
+<!-- 3 -->
+              <div class="sim-list" style="display: flex; flex-direction: row; padding: 5px; padding-left: 5px;">
+                <span class="i"><img  src="https://i.scdn.co/image/ab67616d00001e02b151437d4adc97ce6c828d4a"></span>
+                <div class="z">
+                  <span class="vb" style="font-size:1.1rem; font-weight:500;">Havana</span>
+                  <span class="vb" style="font-size: 0.8rem;"> Camila C..</span>
+                </div>
+                <div>
+                <span style="padding-left:20px;">.</span>
+                <span>.</span>
+                <span>.</span>
+                
+                <span style="padding: 5px 0px 0px 15px;"> 4:33</span>
+              </div>
+              </div>
+<!-- queue -->
+            <span class="l">Queue</span>
+            <div class="dropdown" >
+              <button class="dropbtn">View All</button>
+              <div class="dropdown-content">
+                <a href="#">Playlist</a>
+                <a href="#">Fav Songs</a>
+                <a href="#">Recent</a>
+              </div>
+            </div>
+
+
+            <!-- 1 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">01</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+            
+            <!-- 2 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">02</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 3 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">03</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 4 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">04</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 5 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">05</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+            <!-- 6 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">06</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 7 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">07</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 8 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">08</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 9 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">09</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 10 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">10</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 11 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding:6px 0px 0px 0px;">11</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+
+            <!-- 12 -->
+            <div class="menu-list" style="display: flex; flex-direction: row; padding: 4px; padding-left: 4px;">
+              <span style="font-size: 0.8rem; padding-top:6px ;">12</span>
+             <span > <img  style="height: 35px; width: 35px; padding:0px 6.5px; " src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96" ></span>
+             <div class="n">
+               <span class="n-c" style="font-size: 0.9rem; font-weight:600;">Shivers</span>
+               <span class="n-c" style="font-size: 0.59rem; padding-top: 3px;">Ed Sheeran</span>
+             </div>
+             <span class="c" style="padding-left:27px; padding-top: 17px;"><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+            </div>
+            
+            
+            <section class="below"></section>
+
+
+          </li>
+         
+            
+  
+          </ul>
+        </section>
+      </nav>
+  
+      <aside class="topbar">
+        <ul class="nav-bar">
+          <li class="buttons">
+            <i class="fa-solid fa-rotate-left fa-xl" style="color: #ffffff;"></i>
+          </li>
+          &nbsp;
+          <li class="buttons">
+            <i class="fa-solid fa-rotate-right fa-xl" style="color: #ffffff;"></i>
+          </li>
+          <!-- &nbsp; &nbsp; &nbsp;
+  
+          <li class="spacing">
+            <button type="button" class="upgrade">Upgrade</button>
+          </li>
+  
+          <li class="neg-spacing">
+            <button type="button " class="upgrade">
+              <i class="fa-regular fa-user fa-lg" style="color: #ffffff;"></i>
+              Jay
+            </button>
+          </li> -->
+        </ul>
+  
+        <div class="navbar">
+            <ul >
+              <li >
+                <a href="#" class="upgrade">Premium</a>
+              </li>
+              <li >
+                <a href="#" class="upgrade">Support</a>
+              </li>
+              <li >
+                <a href="#" class="upgrade">Download</a>
+              </li>
+              <li class="divider" class="upgrade" >|</li>
+              <li >
+                <a href="#" class="upgrade" style="margin-left: -20px">Sign Up</a>
+              </li>
+            </ul>
+            <button type="button" class="upgrade">Log In</button>
+          </div>
+        </div>
+  
+  
+      </aside>
+
+      <div class="content-section">
+
+        <div class="list-section">
+          <div class="item-section">
+              <img src="https://routenote.com/blog/wp-content/uploads/2022/02/1.-Ed-Sheeran.jpg">
+              <div class="ed-info">
+                <div class="section1">
+                <h2>Ed Sheeran</h2>
+                <span  id="no-spa">101M Followers </span>
+              </div>
+              <div  class="notice" style="font-size: 0.8rem">English singer-songwriter                </div>
+              <span class="notice" style="font-size: 0.62rem; line-height:1px;"> Ed Sheeran is an English singer-songwriter and musician. He was born on February 17, 1991, in Halifax, West Yorkshire, England. He first gained attention with his debut album <q>+</q>, which was released in 2011 and included hit songs such as <q>The A Team</q> and <q>Lego House</q>. He has since released several successful albums, including <q>x</q> in 2014 and <q>÷</q>  in 2017.
+
+                   He has won several awards for his music, including four Grammy Awards, six Brit Awards, and an Ivor Novello Award. Some of his other popular songs include <q>Shape of You</q>, <q>Thinking Out Loud</q>, and <q>Photograph</q>. </span>  
+                
+                <div class="butt-section">
+                  <span id="q">Play All </span>&nbsp;
+                  <span id="p">Follow</span>
+                </div>
+                <span class="last-line">247 Tracks <b>|</b> 12 Albums</span>
+
+            </div>
+          </div>
+
+        </div>
+
+<!-- 1 -->
+        <div class="number">
+         <span class="num-li"> 01 </span>
+          <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+          <!-- <div class="name-artist" style="display:inline-block"> -->
+            
+            <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+        <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+          <!-- </div> -->
+          <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+          <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+        </div>
+
+<!--  2-->
+        <div class="number " style="background: #303030">
+            <span class="num-li"> <i class="fa-solid fa-music fa-sm" style="color: #00ff33;"></i> </span>
+             <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+             <!-- <div class="name-artist" style="display:inline-block"> -->
+               
+               <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+           <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+             <!-- </div> -->
+             <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+             <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+           </div>
+
+
+           <!-- 3 -->
+           <div class="number">
+              <span class="num-li"> 03 </span>
+               <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+               <!-- <div class="name-artist" style="display:inline-block"> -->
+                 
+                 <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+             <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+               <!-- </div> -->
+               <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+               <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+             </div>
+
+
+             <!-- 4 -->
+             <div class="number">
+                <span class="num-li"> 04 </span>
+                 <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                 <!-- <div class="name-artist" style="display:inline-block"> -->
+                   
+                   <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+               <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                 <!-- </div> -->
+                 <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                 <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+               </div>
+
+
+               <!-- 5 -->
+               <div class="number">
+                  <span class="num-li"> 05 </span>
+                   <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                   <!-- <div class="name-artist" style="display:inline-block"> -->
+                     
+                     <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+                 <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                   <!-- </div> -->
+                   <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                   <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                 </div>
+
+
+               <!-- 6 -->
+               <div class="number">
+                  <span class="num-li"> 06 </span>
+                   <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                   <!-- <div class="name-artist" style="display:inline-block"> -->
+                     
+                     <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+                 <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                   <!-- </div> -->
+                   <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                   <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                 </div>
+                 
+
+               <!-- 7 -->
+               <div class="number">
+                  <span class="num-li"> 07 </span>
+                   <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                   <!-- <div class="name-artist" style="display:inline-block"> -->
+                     
+                     <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+                 <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                   <!-- </div> -->
+                   <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                   <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                 </div>
+                 
+
+               <!-- 8 -->
+               <div class="number">
+                  <span class="num-li"> 08 </span>
+                   <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                   <!-- <div class="name-artist" style="display:inline-block"> -->
+                     
+                     <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+                 <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                   <!-- </div> -->
+                   <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                   <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                 </div>
+                 
+
+               <!-- 9 -->
+               <div class="number">
+                  <span class="num-li"> 09 </span>
+                   <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                   <!-- <div class="name-artist" style="display:inline-block"> -->
+                     
+                     <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+                 <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                   <!-- </div> -->
+                   <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                   <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                 </div>
+
+                 <!-- 10 -->
+               <div class="number">
+                  <span class="num-li"> 10 </span>
+                   <span class="image-list"> <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png"></span>
+                   <!-- <div class="name-artist" style="display:inline-block"> -->
+                     
+                     <div class="name-artist" style="font-weight: 650;">Bad Habits</div>
+                 <span class="name-artist" style="font-size:0.6rem; margin-left: -96px; margin-top:60px; line-height: 0.65rem;"> Ed Sheeran</span>
+                   <!-- </div> -->
+                   <span style="margin-left:740px; ;padding:1px 10px;" ><i class="fa-regular fa-heart fa-sm" style="color: #ffffff;"></i></span>
+                   <span> <i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                 </div>
+
+      </div>
+
+
+
+      <main>
+          <div class="preview">
+            <div class="image">
+              <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Ed_Sheeran_-_Equals.png">
+              <div class="name1">
+                  <span id="bad-habits"><b> Bad Habits</b> </span>
+                  <span id="ed-sheeran"> Ed Sheeran</span>
+              </div>
+    
+              <div class="like-dislike">
+                  <span><i class="fa-regular fa-heart fa-xs" style="color: #ffffff; "></i></span>
+                  <span><i class="fa-solid fa-ban fa-xs" style="color: #ffffff;"></i></span>
+                </div>
+            </div>
+            
+            
+    
+            <div class="play-things">
+              <div class="upper-slider">
+              <span> <i class="fa-solid fa-shuffle fa-md" style="color: #ffffff;"></i></span>
+              <span> <i class="fa-solid fa-backward-step fa-md" style="color: #ffffff;"></i></span>
+              <span> <i class="fa-regular fa-circle-play fa-xl" style="color: #ffffff;"></i></span>
+              <span> <i class="fa-solid fa-forward-step fa-md" style="color: #ffffff;"></i></span>
+              <span> <i class="fa-solid fa-repeat fa-md" style="color: #ffffff;"></i></span>
+              </div>
+              <div class="main-slider">
+                  <!-- <span class="t1">1:39</span> -->
+                  <div class="slidecontainer">
+                      <span class="t1">1:39</span>
+                      <input type="range" min="1" max="100" value="30" class="slider" id="myRange">
+                      <span class="t2">4:50</span>
+                    </div>
+                    <!-- <span class="t2">4:50</span> -->
+                </div>
+            </div>
+    
+            
+    
+            <div class="right-side">
+              <span> <i class="fa-solid fa-list-ul fa-md" style="color: #ffffff;"></i></span>    
+              <span><i class="fa-solid fa-laptop-file fa-md" style="color: #ffffff;"></i></span>
+             <span><i class="fa-solid fa-volume-high fa-md" style="color: #ffffff;"></i></span>
+              <div class="slidecontainer1">
+                  <input type="range" min="1" max="100" value="50" class="slider1" id="myRange1">
+                  <span> <i class="fa-solid fa-down-left-and-up-right-to-center fa-md" style="color: #ffffff;"></i></span>
+                </div>
+               
+            </div>
+            
+          </div>
+        </main>
+
+
+  
+</body>
+<script src="script.js"></script>
+</html>
